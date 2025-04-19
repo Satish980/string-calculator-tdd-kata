@@ -40,6 +40,11 @@ console.log("Passed: Ignore numbers > 1000");
 
 // STEP 9: Delimiters of any length
 assert.strictEqual(add("//[***]\n1***2***3"), 6);
+console.log("Passed: Delimiters of any length");
+
+// STEP 10: Multiple delimiters
+assert.strictEqual(add("//[*][%]\n1*2%3"), 6);
+console.log("Passed: Multiple delimiters");
 
 console.log("All tests passed!");
 
