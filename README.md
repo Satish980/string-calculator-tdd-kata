@@ -1,2 +1,2 @@
-# string-calculator-tdd-kata
+# String Calculator TDD Kata
 Incubyte Assignment
