@@ -109,7 +109,7 @@ I’ve used Node’s built-in `assert` module.
 
 1. To run tests:
    ```bash
-   node tests/test.js
+   node tests/calculator.test.js
    ```
 
 2. Example test:
@@ -124,8 +124,8 @@ I’ve used Node’s built-in `assert` module.
 
 ```
 string-calculator-tdd-kata/
-├── src/index.js       # main calculator logic
-├── tests/test.js        # test cases
+├── src/calculator.js       # main calculator logic
+├── tests/calculator.test.js        # test cases
 └── README.md      # project documentation
 ```
 ---
