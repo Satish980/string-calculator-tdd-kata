@@ -10,5 +10,8 @@ assert.strictEqual(add("1"), 1);
 // STEP 3: Two numbers comma separated
 assert.strictEqual(add("1,2"), 3);
 
+// STEP 4: Any number of comma-separated values
+assert.strictEqual(add("1,2,3,4"), 10);
+
 console.log("All tests passed!");
 
