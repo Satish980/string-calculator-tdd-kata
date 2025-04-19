@@ -29,8 +29,10 @@ console.log("Passed: Support custom delimiters like //;\\n1;2")
 try {
   add("1,-2,-5");
 } catch (e) {
+  // console.log(e);
   assert.strictEqual(e.message, "negatives not allowed: -2, -5");
 }
+console.log("Passed: Throw on negative numbers with all values in message")
 
 console.log("All tests passed!");
 
