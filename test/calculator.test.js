@@ -38,5 +38,8 @@ console.log("Passed: Throw on negative numbers with all values in message")
 assert.strictEqual(add("2,1001"), 2);
 console.log("Passed: Ignore numbers > 1000");
 
+// STEP 9: Delimiters of any length
+assert.strictEqual(add("//[***]\n1***2***3"), 6);
+
 console.log("All tests passed!");
 
