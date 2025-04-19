@@ -36,6 +36,7 @@ console.log("Passed: Throw on negative numbers with all values in message")
 
 // STEP 8: Ignore numbers > 1000
 assert.strictEqual(add("2,1001"), 2);
+console.log("Passed: Ignore numbers > 1000");
 
 console.log("All tests passed!");
 

@@ -8,7 +8,7 @@ function add(numbers) {
     numbers = numbers.slice(delimiterLineEnd + 1);
   }
 
-  const parts = numbers.split(delimiter).map(Number);
+  const parts = numbers.split(delimiter).map(Number).filter(n => n <= 1000);
   const negatives = parts.filter(num => num < 0);
 
   if (negatives.length > 0) {
