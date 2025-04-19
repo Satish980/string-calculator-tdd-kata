@@ -1,0 +1,12 @@
+{
+  "name": "string-calculator-tdd-kata",
+  "version": "1.0.0",
+  "description": "This is a simple Test-Driven Development (TDD) exercise to implement a string-based calculator that parses numbers and returns their sum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
