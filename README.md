@@ -117,9 +117,16 @@ I’ve used Node’s built-in `assert` module.
    const assert = require('assert');
    assert.strictEqual(add("1,2,3"), 6);
    ```
-
 ---
 
+## 🖥 Sample Run
+
+Below is a screenshot of the calculator running and passing all test cases:
+
+<img width="713" alt="String Caluclator Test Runs" src="https://github.com/user-attachments/assets/4518683b-110f-42a2-a1b6-afd8657f576a" />
+
+
+---
 ## 📁 Project Structure
 
 ```
