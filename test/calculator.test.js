@@ -46,5 +46,9 @@ console.log("Passed: Delimiters of any length");
 assert.strictEqual(add("//[*][%]\n1*2%3"), 6);
 console.log("Passed: Multiple delimiters");
 
+// STEP 11: Multiple long delimiters
+assert.strictEqual(add("//[***][%%]\n1***2%%3"), 6);
+console.log("Passed: Multiple long delimiters")
+
 console.log("All tests passed!");
 
