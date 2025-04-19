@@ -16,5 +16,8 @@ assert.strictEqual(add("1,2,3,4"), 10);
 // STEP 5: Handle newlines as delimiters
 assert.strictEqual(add("1\n2,3"), 6);
 
+// STEP 6: Support custom delimiters like //;\n1;2
+assert.strictEqual(add("//;\n1;2"), 3);
+
 console.log("All tests passed!");
 
