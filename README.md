@@ -75,3 +75,57 @@ int add(string numbers)
 4. Commit after each step to track progress clearly.
 
 ---
+
+# Solution
+
+---
+
+## 🛠 Tech Stack
+
+- **Language**: JavaScript (Node.js)
+- **Test Framework**: Node’s built-in `assert` module (basic, beginner-friendly)
+- **Git**: For version control and committing each step
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Satish980/string-calculator-tdd-kata
+   cd string-calculator
+   ```
+
+2. Run the code using Node:
+   ```bash
+   node src/calculator.js
+   ```
+
+---
+
+## 🧪 How to Test
+
+I’ve used Node’s built-in `assert` module.
+
+1. To run tests:
+   ```bash
+   node tests/test.js
+   ```
+
+2. Example test:
+   ```js
+   const assert = require('assert');
+   assert.strictEqual(add("1,2,3"), 6);
+   ```
+
+---
+
+## 📁 Project Structure
+
+```
+string-calculator-tdd-kata/
+├── src/index.js       # main calculator logic
+├── tests/test.js        # test cases
+└── README.md      # project documentation
+```
+---
